@@ -16,17 +16,9 @@ The following libraries are required to run the notebook:
 - matplotlib
 - scikit-learn
 
-You can install these dependencies using the following commands:
+You can install these dependencies using this type of command:
 
 `!pip install torch`
-
-`!pip install torch-summary`
-
-`!pip install yfinance`
-
-`!pip install matplotlib`
-
-`!pip install scikit-learn`
 
 If running on Google Colab, you should not have to manually install any of these libraries.
 
