@@ -19,10 +19,20 @@ The following libraries are required to run the notebook:
 You can install these dependencies using the following commands:
 
 `!pip install torch`
+
 `!pip install torch-summary`
+
 `!pip install yfinance`
+
 `!pip install matplotlib`
+
 `!pip install scikit-learn`
+
+If running on Google Colab, you should not have to manually install any of these libraries.
+
+## Running the Code
+
+You can run the notebook in a local environment that supports Jupyter Notebooks or directly in Google Colab.
 
 ## How to Use
 
@@ -30,7 +40,7 @@ You can install these dependencies using the following commands:
 2. Data Visualization: The notebook includes comprehensive data visualization techniques that allow you to understand various stock attributes over time. Plots are provided on a daily, weekly, and monthly frequency, as well as moving averages.
 3. Data Preparation: The notebook preprocesses the data using MinMaxScaler, normalizing the Open, High, Low, and Close features, and transforms the data into sequences for time series prediction.
 4. Model Architecture: An LSTM network is employed to capture the sequential pattern in the data. The network includes 64 hidden units and a fully connected layer to output the predicted values for the Open, High, Low, and Close features.
-5. Training and Evaluation: The model is trained using Adam optimization and Mean Squared Error loss function. Training, validation, and test datasets are defined, and the training process includes saving the best model based on validation loss.
+5. Training and Evaluation: The model is trained using Adam optimization and a Mean Squared Error loss function. Training, validation, and test datasets are defined, and the training process includes saving the best model based on validation loss.
 6. Prediction: The notebook illustrates how to use the trained model to make predictions on the test set and to forecast the next 10 days' stock prices.
 
 ## Results
